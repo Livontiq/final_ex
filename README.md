@@ -4,3 +4,7 @@ ER диаграммы - ![image](https://github.com/Livontiq/final_ex/assets/152
 Тест кейсы - [Тест-Кейс.docx](https://github.com/user-attachments/files/15613674/-.docx)
 ТЗ и РП - [тз.docx](https://github.com/user-attachments/files/15613705/default.docx) [руководство.docx](https://github.com/user-attachments/files/15613706/default.docx)
 Гит
+полезные ссылочки:
+https://metanit.com/sharp/wpf/19.2.php
+https://metanit.com/sharp/entityframework/3.1.php
+https://metanit.com/sharp/wpf/21.1.php
