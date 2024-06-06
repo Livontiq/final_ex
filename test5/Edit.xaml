@@ -1,0 +1,27 @@
+﻿<Window x:Class="test5.Edit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test5"
+        mc:Ignorable="d"
+        Title="Edit" Height="300" Width="300">
+    <Grid>
+        <DatePicker x:Name="DPDate" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TBCarNum" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TBFIO" HorizontalAlignment="Left" Margin="10,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TBCost" PreviewTextInput="NumberValidationTextBox" MaxLength="5" HorizontalAlignment="Left" Margin="10,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="CBType" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="120">
+            <TextBlock>Правонарушение 1</TextBlock>
+            <TextBlock>Правонарушение 2</TextBlock>
+        </ComboBox>
+        <Label Content="Номер Машины" HorizontalAlignment="Left" Margin="135,6,0,0" VerticalAlignment="Top"/>
+        <Label Content="ФИО" HorizontalAlignment="Left" Margin="135,46,0,0" VerticalAlignment="Top"/>
+        <Label Content="Тип Нарушения" HorizontalAlignment="Left" Margin="135,126,0,0" VerticalAlignment="Top"/>
+        <Label Content="Сумма Штрафа" HorizontalAlignment="Left" Margin="135,168,0,0" VerticalAlignment="Top"/>
+        <Label Content="Дата и Время" HorizontalAlignment="Left" Margin="135,89,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="BtnOK" Content="Добавить" HorizontalAlignment="Left" Margin="10,229,0,0" VerticalAlignment="Top" Click="Accept_Click"/>
+        <Button x:Name="BtnCancel" Content="Отменить" HorizontalAlignment="Left" Margin="72,229,0,0" VerticalAlignment="Top" IsCancel="True"/>
+
+    </Grid>
+</Window>
